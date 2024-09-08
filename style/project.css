@@ -1,0 +1,29 @@
+.banner{
+    position: relative;
+}
+.banner-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px 60px;
+    border-radius: 25px;
+    
+}
+
+.titel-overlay{
+    position:absolute;
+    top: 50%;
+    right: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-titel{
+    font-size: 20px;
+
+}
+
+.banner-description{
+    font-size: 30px;
+    font-weight: bold;
+}
