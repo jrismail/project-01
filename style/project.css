@@ -1,29 +1,102 @@
-.banner{
-    position: relative;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.banner-image{
-    display: block;
+
+header, .banner{
     width: 100%;
-    height: auto;
-    margin: 30px 60px;
-    border-radius: 25px;
+    max-width: 1600px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-imge{
+    margin-top: 50px;
+    width: 82%;
+    height: 500px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 191, 255, 0)), url('../resources/Banner\ Image.png') center/cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 20%; 
+}
+
+.banner h1{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
     
 }
 
-.titel-overlay{
-    position:absolute;
-    top: 50%;
-    right: 50%;
+.saller-offer{
+    width: 82%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.saller-offer p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.banner-titel{
-    font-size: 20px;
-
-}
-
-.banner-description{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 400;
+    margin-top: 29px;
+    color: red;
 }
+
+.saller-offer h1{
+    font-family:'Gill Sans';
+    font-size: 60px;
+    color: red;
+}
+
+.saller-offer h2{
+    font-family: Inter;
+}
+
+.saller-offer img{
+    width: 50%;
+}
+
+.invite{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+.invite-img{
+    margin-top: 50px;
+    width: 82%;
+    height: 500px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 191, 255, 0)), url('../resources/Vectorrr.png') center/cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    color: white;
+    text-align: left;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
