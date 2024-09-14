@@ -64,26 +64,24 @@ header, .banner{
 }
 
 .saller-offer h1{
-    font-family:'Gill Sans';
+    font-family:Inter;
     font-size: 60px;
+    font-weight: 700;
     color: red;
 }
 
 .saller-offer h2{
     font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 .saller-offer img{
     width: 50%;
 }
 
-.invite{
-    width: 100%;
-    max-width: 1600px;
-    display: flex;
-    text-align: left;
-    justify-content: left;
-}
 
 .invite-img{
     margin-top: 50px;
@@ -93,10 +91,56 @@ header, .banner{
     background-repeat: no-repeat;
     border-radius: 16px;
     color: white;
-    text-align: left;
-    justify-content: space-between;
+    display: flex;
+}
+
+.invite-text{
+    padding: 120px 0px 120px 120px ;
+    display: flex;
     flex-direction: column;
 }
+
+.invite-text h1{
+    color: white;
+    letter-spacing: 6px;
+    line-height: 70px;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.invite-text p{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.invite-text button{
+    width: 20%;
+    height: 20%;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .5s;
+    border-radius: 5px;
+}
+
+.invite-text button:hover{
+    border: 2px solid white;
+}
+
+
 
 
 
