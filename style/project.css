@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -82,7 +85,7 @@ header, .banner{
     width: 50%;
 }
 
-
+/* invite section */
 .invite-img{
     margin-top: 50px;
     width: 82%;
@@ -150,6 +153,212 @@ header, .banner{
     height: 700;
     margin-top: 70px;
 }
+
+/* join section */
+
+.join{
+    margin-top: 120px;
+    width: 82%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(226, 1, 1, 0.1) 0%, rgba(116, 5, 5, 0) 100%);
+    border-radius: 25px;
+}
+
+.join p{
+    
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.join p span{
+    color: red;
+}
+
+.join button{
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: red;
+    text-align: center;
+    justify-self: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all ease .5s;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+.join button:hover{
+    border: 2px solid black;
+}
+
+/* coming soon section */
+
+.coming-soon{
+    height: 460px;
+    width: 82%;
+    display: flex;
+    margin-top: 120px;   
+}
+
+.text-left{
+    padding: 110px;
+    padding-right: 40px;
+    text-align: left;
+    justify-content: space-between;
+}
+.text-left h4{
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-left h1{
+    color: rgb(0, 0, 0);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.text-left  p{ 
+    color: lightslategray;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.coming-imge img{
+    height: 100%;
+}
+
+.coming-imge{
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+
+.text-right{
+    padding: 110px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-right h2{
+    color: red;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.text-right p{
+    color: lightslategray;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.text-right img{
+    width: 60%;
+}
+
+
+/*holiday section */
+.holiday{
+    margin-top: 120px;
+    width: 82%;
+    text-align: center;
+}
+ .holiday h4{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+ }
+
+ .holiday h1{
+    font-family: Merriweather;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+ }
+
+ .holiday span{
+    color: red;
+ }
+
+.holiday p{
+    color: lightslategray;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 30px;
+
+}
+
+.image{
+    width: 82%;
+    height: 563px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-image{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+ .image img{
+    border-radius: 15px;
+ }
+
+.imge1{
+    height: auto;
+    position: relative;
+    top: 8vw;
+    left: 8vw;
+ }
+
+.imge2{
+    height: 60%;
+    position: relative;
+    right: -130px;
+    top: 80px;
+    z-index:300;    
+}
+
+.imge3{
+    height: auto;
+    border-radius: 25px;
+}
+
+
 
 
 
