@@ -423,9 +423,80 @@ header, .banner{
 
 .pro-imge-r1 img:hover, .pro-imge-r2 img:hover{
     border: 2px solid black;
-    transform: translateY(4px);
+    transform: translateZ(4px);
     box-shadow: 15px 5px 30px red;
 
+}
+/*--subscribe--*/
+.subscribe{
+    width: 82%;
+    height: 600px;
+    text-align: center;
+    margin-top: 120px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+
+}
+
+.subscribe h2{
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe p{
+    color: lightslategray;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 20px;
+    width: 80%;
+
+}
+
+.subscribe div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.subscribe div input,button{
+    height: 45px;
+    margin-top: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+
+}
+
+.subscribe div input{
+    width: 400px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 20px;
+    border: 1px solid lightslategray;
+
+}
+
+.subscribe div button{
+    width: 150px;
+    border-radius: 0px 50px 50px 0px;
+    background: red;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    border: 2px solid transparent;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.subscribe div button:hover{
+    border: 2px solid lightslategray;
 }
 
 
