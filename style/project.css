@@ -499,7 +499,92 @@ header, .banner{
     border: 2px solid lightslategray;
 }
 
+/* footer*/
 
+footer{
+    background: #070211;
+    color: white;
+    height: 450px;
+    width: 100%;
+    padding: 0% 9%;
+    max-width: 1600px;
+}
+
+footer hr{
+    border: 1px solid rgb(73, 100, 128);
+}
+
+.foot{
+    width: 82%;
+    height: 35%;
+}
+
+.foot>div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.foot-p{
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    display: inline;
+}
+
+.foot-icon{
+    height: 25%;
+    width: 82vw;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-icon img{
+    cursor: pointer;
+    box-shadow: 3px 1px 10px white;
+    border-radius: 100%;
+}
+
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-bottom p{
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    display: inline;
+
+}
+
+.foot-bottom button{
+    width: 20%;
+    height: 20%;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .5s;
+    border-radius: 50px ;
+    
+}
+
+.foot-bottom button:hover{
+    border: 2px solid red;
+    box-shadow: 2px 1px 10px white;
+    transform: translateY(4px);
+}
 
 
 
