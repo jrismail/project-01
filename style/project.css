@@ -357,6 +357,78 @@ header, .banner{
     height: auto;
     border-radius: 25px;
 }
+/*--protfolio--*/
+
+.protfolio{
+    width: 82%;
+    margin-top: 120px;
+
+}
+.pro-text{
+    text-align: left;
+}
+.pro-text h4{
+    color: red;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pro-text h1{
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.pro-text p{
+    color: lightslategray;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.pro-imge-r1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pro-imge-r1 img{
+    width: 32%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.pro-imge-r2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.pro-imge-r2 img{
+    width: 32%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.pro-imge-r1 img:hover, .pro-imge-r2 img:hover{
+    border: 2px solid black;
+    transform: translateY(4px);
+    box-shadow: 15px 5px 30px red;
+
+}
+
+
 
 
 
